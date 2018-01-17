@@ -1,5 +1,5 @@
 body {
-	background-color: salmon;
+	background-color: lightgreen;
 	color: black;
 	font-size: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -12,7 +12,7 @@ p {
 
 footer {
   	border-top: solid;
-  	border-color: salmon;
+  	border-color: lightgreen;
   	text-align: center;
   	position: fixed;
   	bottom: 0;

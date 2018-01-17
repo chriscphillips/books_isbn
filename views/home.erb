@@ -1,0 +1,34 @@
+<center>
+<script src= "/js/getdate.js"> 
+</script>
+<p id="date"> </p>
+<head>
+<title> Welcome to Find a Book</title>
+<link href="<%= url('/css/main.css') %>" rel= "stylesheet" type="text/css" />
+</head>
+<body>
+<img  alt="heart2" src="/img/heart2.png"  align="left" width="297" height="276">
+<img  alt="heart4" src="/img/heart4.png"  align="right" width="297" height="276">
+<br>
+Welcome to Chris's Book Find
+<br><br>
+Select a Book
+<br>
+<img alt="books" src="/img/books.jfif" width="310" height="162"/>
+<br>
+<form method="post" action="book_choice">
+   <input type="radio"  name="isbn" value="9780999355107"> Cut Throat Syndrome <br>
+   <input type="radio"  name="isbn" value="9781501175466"> IT <br>
+   <input type="radio"  name="isbn" value="9780399575570"> Typhoon Fury <br>
+   <input type="radio"  name="isbn" value="9780399183973"> Pirate <br>
+   <input type="radio"  name="isbn" value="9780399185304"> The Midnight Bell <br>
+   <input type="radio"  name="isbn" value="0399148337"> Midnights Runner <br>
+    <input type= "submit">
+</form>
+<img alt="heart1" src="/img/heart1.png" align="left" width="297" height="276">
+<img alt="heart3" src="/img/heart3.png"  align="right" width="297" height="276">
+</center>
+</body>
+<script>
+	window.onload=getOrderDate('date');
+</script>
